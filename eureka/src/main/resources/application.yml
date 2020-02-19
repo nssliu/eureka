@@ -9,3 +9,9 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+#ribbon:
+#  ConnetcTimeout: 1200
+#  readTime: 300
+#  MaxAutoRetries: 0
+#  MaxAutoRetriesNextServer: 2
+#  OkToRetryOnAllOperations: true

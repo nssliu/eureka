@@ -7,3 +7,10 @@ server:
 spring:
   application:
     name: service-hi
+
+#ribbon:
+#  ConnetcTimeout: 1200
+#  readTime: 300
+#  MaxAutoRetries: 0
+#  MaxAutoRetriesNextServer: 2
+#  OkToRetryOnAllOperations: true

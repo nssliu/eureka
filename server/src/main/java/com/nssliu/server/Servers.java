@@ -21,7 +21,8 @@ public class Servers {
     @Value("${server.port}")
     String port;
     @RequestMapping("/getValue")
-    public String getValue(@RequestParam String name){
+    public String getValue(@RequestParam String name) throws InterruptedException {
+        Thread.sleep(10000);
         return "hi"+name+port;
     }
     @RequestMapping("/getObject")
